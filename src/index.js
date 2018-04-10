@@ -1,4 +1,4 @@
-import fontawesome from '@fortawesome/fontawesome'
+import fontawesome from 'font-awesome/fontawesome'
 import FontAwesomeIcon from './components/FontAwesomeIcon'
 
 fontawesome.noAuto()

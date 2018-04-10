@@ -25,12 +25,12 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@fortawesome/fontawesome": ">=1.1.0",
+    "font-awesome": "git+ssh://git@github.com/2020IP/font-awesome.git",
     "prop-types": "15.x",
     "react": "16.x"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome": ">=1.0.0",
+    "font-awesome": "git+ssh://git@github.com/2020IP/font-awesome.git",
     "babel-eslint": "^8.2.1",
     "babel-jest": "^21.0.0",
     "babel-plugin-external-helpers": "^6.22.0",
