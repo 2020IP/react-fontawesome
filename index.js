@@ -2789,8 +2789,9 @@
     var extraProps = {}
 
     Object.keys(props).forEach(function(key) {
-      if (!FontAwesomeIcon$1.defaultProps.hasOwnProperty(key))
+      if (!FontAwesomeIcon$1.defaultProps.hasOwnProperty(key)) {
         extraProps[key] = props[key]
+      }
     })
 
     return convertCurry(abstract[0], extraProps)
